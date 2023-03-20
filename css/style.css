@@ -1,0 +1,296 @@
+/* Golibal css  */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+    padding: 75px 0px;
+}
+.writine-part{
+margin-bottom: 50px;
+}
+.half-pg{
+width: 50%;
+margin: auto;
+}
+.box-part{
+
+}
+.box{
+padding: 0px 20px;
+}
+p{
+font-size: 17px;
+line-height: 20px;
+font-weight: 300;
+
+}
+.heading{
+font-size: 35px;
+font-weight: 600;
+line-height: 35px;
+}
+.sub-heading{
+font-size: 25px;
+line-height: 30px;
+font-weight: 600;
+text-transform: uppercase;
+margin: 10px 0px;
+}
+.underline{
+border-top: 5px solid #00000036;
+width: 7%;
+margin: 10px auto;
+}
+.btn{
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+    text-transform: uppercase;
+}
+/* layout  */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+}
+header{
+    background-color: #87509c;
+    text-align: center;
+    color: #fff;
+}
+nav{
+    padding: 10px 0px;
+}
+.logo-part{
+    text-align: left;
+} 
+.menu-part{
+    text-align: right;
+    padding: 10px 0px;
+}
+.menu-part li{
+display: inline-block;
+margin: 0px 5px;
+}
+.menu-part li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 12px;
+    transition: ease-in-out 0.2s;
+}
+.menu-part li a:hover{
+    background-color: #0000004f;
+    border-radius: 5px;
+}
+.hero-part{
+    padding: 150px 100px;
+}
+.hero-part h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.hero-part button{
+    margin-top: 30px;
+    background-color: #eb7d4b;
+    color: #fff;
+}
+/* service section  */
+#service{
+background-color: #17c2a4;
+text-align: center;
+color: #fff;
+}
+#service .box img {
+    height: 150px;
+}
+/* team section  */
+#team{
+background-color: #e7f1f8;
+text-align: center;
+color: #3c4761;
+}
+.team-icon{
+    margin-top: 20px;
+}
+.team-icon i{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+    margin: 5px 5px;
+}
+.team-icon i:hover{
+    background-color: #3c4761;
+    color: #fff;
+ 
+}
+.des{
+    font-size: 20px;
+    color: #30bae7;
+}
+/* skil section  */
+#skill{
+    text-align: center;
+    color: #3c4761;
+    background-color: #ffffff;
+}
+/* portfolio section  */
+#portfolio{
+    background-color: #ffdd99;
+    color: #3c4761;
+    text-align: center;
+}
+.portfolio-btn{
+margin-top: 50px;
+}
+.portfolio-btn button{
+background-color: #00000036;
+padding: 10px 0px;
+width: 75px;
+font-size: 18px;
+font-weight: 400;
+transition: ease-in-out 0.2s;
+text-transform: uppercase;
+}
+.portfolio-btn button:hover{
+    background-color: rgba(71, 69, 69, 0.61);
+    color: #fff;
+}
+#portfolio .box-part p{
+    margin-top: 15px;
+}
+#portfolio .box-part{
+    margin-bottom: 30px;
+}
+#portfolio .container > button{
+    background-color: #17c2a4;
+    color: #fff;
+}
+/* about section  */
+#about{
+    text-align: center;
+    color: #ffffff;
+    background-color: #d74680;
+}
+#about .box-part{
+    padding: 15px 0px;
+    margin: 15px 0px;
+}
+#about .box-part p{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    
+}
+#about .box-part .sub-heading{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#about .box-part .box img{
+    padding-left: 150px;
+}
+.des-1{
+    font-size: 20px;
+    color: #ffdd99;
+}
+/* contact section  */
+#contact{
+    background-color: #3c5499;
+    color: #fff;
+    text-align: center;
+}
+form{
+    width: 70%;
+    margin: auto;
+    
+} 
+.input-1{
+display: block;
+width: 49%;
+float: left;
+margin-right: 1%;
+}
+.input-2{
+display: block;
+width: 49%;
+float: left;
+margin-left: 1%;
+}
+input, textarea{
+    padding: 10px;
+    background-color:  #273a71;
+    color: #fff;
+    border-radius: 5PX;
+    font-size: 18px;
+}
+input::placeholder,
+ textarea::placeholder{
+    color: #fff;
+ }
+textarea{
+    width: 100%;
+    margin-top: 20px;
+}
+input[type="submit"]{
+    background-color:#30bae7;
+    margin-top: 50px;
+}
+footer{
+    background-color: #344b8e;
+    color: #fff;
+    text-align: center;
+}
+.footer-menu ul li{
+    display: inline-block;
+    margin: 20px 0px;
+    padding: 0px 35px;
+   
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 12px;
+    transition: ease-in-out 0.2s;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer-menu ul li a:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
